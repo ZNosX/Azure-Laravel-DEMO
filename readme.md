@@ -106,9 +106,10 @@ yarn-error.log
 #### Deploy to Azure Web App vai local Git
 1. Create a Web App in Azure Portal (Windows / Linux)
 2. '**Extensions > Add**' and add '**Composer**' extension
-3. In Web App '**Configuration - Path mappings - Virtual applications and directories**', update '**site\wwwroot**' to '**site\wwwroot\public**', click save.
-4. In Web App '**Deployment Center - Git**', get and add remote repo link to local Git
-5. Push from local to Azure remote repo
+3. In Web App '**Configuration - General**', update to corresponding **PHP** stack and preffered version.
+4. In Web App '**Configuration - Path mappings - Virtual applications and directories**', update '**site\wwwroot**' to '**site\wwwroot\public**', click save.
+5. In Web App '**Deployment Center - Git**', get and add remote repo link to local Git
+6. Push from local to Azure remote repo
 
 #### Bring site up
 1. In Web App '**Advanced Tools - Go**' to get to Kudu site
